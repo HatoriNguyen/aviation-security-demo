@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+database/*.db
+database/*.db-journal
+database/*.sqlite
+private-storage/uploads/*
+!private-storage/uploads/.gitkeep
+# Ignore OS generated files
+.DS_Store
+Thumbs.db

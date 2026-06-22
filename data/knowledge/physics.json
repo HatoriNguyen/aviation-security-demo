@@ -1,0 +1,50 @@
+{
+  "courseName": "Vật lý (Cấp 1 - Đại học)",
+  "topics": [
+    {
+      "keywords": ["vật lý", "tự nhiên", "thường thức", "hiện tượng", "cấp 1", "trọng lực"],
+      "answer": "🌍 **Vật lý Cấp 1: Khám phá Tự nhiên**\n\nVật lý ở tiểu học giúp các em hiểu về thế giới xung quanh qua những hiện tượng đơn giản.\n\n**Các khái niệm cơ bản:**\n- **Trọng lực:** Là lực hút của Trái Đất giúp chúng ta và đồ vật không bị bay lơ lửng.\n- **Sự nổi:** Vật nhẹ hơn nước sẽ nổi (như phao, xốp), vật nặng sẽ chìm (như đá, sắt).\n- **Ánh sáng & Bóng tối:** Nơi nào có ánh sáng chiếu vào sẽ sáng, bị che khuất sẽ tạo thành bóng tối.\n- **Âm thanh:** Được tạo ra do sự rung động. Khi bạn gõ vào mặt trống, mặt trống rung tạo ra tiếng.",
+      "source": "Sách Tự nhiên & Xã hội Tiểu học"
+    },
+    {
+      "keywords": ["chuyển động", "vận tốc", "quãng đường", "thời gian", "cấp 2", "lực", "khối lượng riêng"],
+      "answer": "🚲 **Vật lý Cấp 2: Động học & Cơ học cơ bản**\n\n**Chuyển động đều:**\n- Công thức: v = s / t\n- Trong đó: v là vận tốc, s là quãng đường, t là thời gian.\n\n**Khối lượng riêng & Trọng lượng riêng:**\n- Khối lượng riêng (D): D = m / V (Khối lượng chia cho Thể tích).\n- Trọng lượng (P): P = 10m.\n\n**Lực đẩy Ác-si-mét:** Lực đẩy lên vật nhúng trong chất lỏng. FA = d × V.\n\n**Ứng dụng:** Tính thời gian đi xe đạp từ nhà đến trường, giải thích tại sao tàu thủy bằng sắt khổng lồ lại nổi trên mặt nước.",
+      "source": "Sách giáo khoa Vật lý 8"
+    },
+    {
+      "keywords": ["nhiệt", "nhiệt năng", "sự truyền nhiệt", "cấp 2", "nhiệt kế"],
+      "answer": "🔥 **Vật lý Cấp 2: Nhiệt học**\n\n**Nhiệt năng:** Tổng động năng của các phân tử cấu tạo nên vật.\n\n**Sự truyền nhiệt:**\n- **Dẫn nhiệt:** Chủ yếu ở chất rắn (VD: Nung nóng thanh sắt).\n- **Đối lưu:** Sự truyền nhiệt qua dòng chất lỏng hoặc khí (VD: Đun nước).\n- **Bức xạ nhiệt:** Truyền nhiệt qua tia nhiệt, có thể truyền trong chân không (VD: Sưởi ấm từ Mặt trời).\n\n**Công thức tính nhiệt lượng:** Q = m × c × Δt\n(Q: Nhiệt lượng, m: khối lượng, c: nhiệt dung riêng, Δt: độ tăng/giảm nhiệt độ).",
+      "source": "Sách giáo khoa Vật lý 8"
+    },
+    {
+      "keywords": ["cơ học", "newton", "lực", "gia tốc", "động lực học", "cấp 3"],
+      "answer": "⚛️ **Vật lý Cấp 3: Cơ học Newton**\n\n**Ba định luật Newton:**\n1. **Định luật 1 (Quán tính):** Vật giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều nếu không có lực tác dụng.\n2. **Định luật 2:** F = ma (Lực = khối lượng × gia tốc)\n3. **Định luật 3:** Lực và phản lực bằng nhau, ngược chiều: F₁₂ = -F₂₁\n\n**Chuyển động biến đổi đều:**\n- v = v₀ + at\n- s = v₀t + ½at²\n- v² - v₀² = 2as\n\n**Ứng dụng:** Tính lực phanh của ô tô, quỹ đạo bay của tên lửa.",
+      "source": "Sách giáo khoa Vật lý 10"
+    },
+    {
+      "keywords": ["điện", "ohm", "định luật ohm", "điện trở", "mạch điện", "cấp 3"],
+      "answer": "🔌 **Vật lý Cấp 3: Điện học & Định luật Ohm**\n\n**Định luật Ohm cho đoạn mạch:** I = U / R\n- I: Cường độ dòng điện (Ampe - A)\n- U: Hiệu điện thế (Vôn - V)\n- R: Điện trở (Ohm - Ω)\n\n**Ghép điện trở:**\n- Nối tiếp: R_tđ = R₁ + R₂ + ...\n- Song song: 1/R_tđ = 1/R₁ + 1/R₂ + ...\n\n**Công suất điện:** P = U × I = I² × R = U² / R\n\n**Ứng dụng:** Tính toán tiền điện, thiết kế mạch điện an toàn cho thiết bị trong nhà.",
+      "source": "Sách giáo khoa Vật lý 11"
+    },
+    {
+      "keywords": ["quang học", "khúc xạ", "phản xạ", "thấu kính", "cấp 3"],
+      "answer": "🌈 **Vật lý Cấp 3: Quang học**\n\n**Định luật khúc xạ ánh sáng (Snell):** n₁·sin(i) = n₂·sin(r)\n\n**Thấu kính:**\n- Hội tụ (kính viễn thị, kính lúp)\n- Phân kỳ (kính cận thị)\n- Công thức thấu kính: 1/f = 1/d + 1/d'\n  - f: tiêu cự\n  - d: khoảng cách vật tới kính\n  - d': khoảng cách ảnh tới kính\n\n**Ứng dụng:** Chế tạo mắt kính, kính thiên văn quan sát các vì sao, máy ảnh.",
+      "source": "Sách giáo khoa Vật lý 11"
+    },
+    {
+      "keywords": ["nhiệt động lực học", "thermodynamics", "entropy", "đại học", "nhiệt"],
+      "answer": "⚛️ **Vật lý Đại học: Nhiệt động lực học**\n\n**Các nguyên lý chính:**\n- **Nguyên lý 1:** ΔU = Q - A (Độ biến thiên nội năng bằng nhiệt lượng nhận được trừ đi công sinh ra - Bảo toàn năng lượng).\n- **Nguyên lý 2:** Entropy (S) của một hệ cô lập luôn tăng (Chiều của các quá trình tự nhiên). ΔS ≥ 0.\n- **Nguyên lý 3:** Không thể đạt được độ không tuyệt đối (0 K).\n\n**Chu trình Carnot:** Chu trình lý tưởng có hiệu suất lớn nhất giữa 2 nguồn nhiệt. η = 1 - (T_lạnh / T_nóng).\n\n**Ứng dụng:** Thiết kế động cơ đốt trong, động cơ phản lực hàng không, hệ thống làm lạnh công nghiệp.",
+      "source": "Vật lý Đại cương A1 - Chương Nhiệt động lực học"
+    },
+    {
+      "keywords": ["điện từ trường", "maxwell", "sóng điện từ", "đại học", "từ trường"],
+      "answer": "⚡ **Vật lý Đại học: Điện từ trường & Hệ phương trình Maxwell**\n\nHệ phương trình Maxwell thống nhất Điện và Từ thành một trường duy nhất: Trường điện từ.\n\n**4 phương trình Maxwell:**\n1. Định lý Gauss đối với điện trường (Tích phân E·dS = Q/ε₀)\n2. Định lý Gauss đối với từ trường (Tích phân B·dS = 0 - Không có từ tích từ duy nhất)\n3. Định luật Faraday (Tích phân vòng E·dl = -dΦ/dt - Từ trường biến thiên sinh ra điện trường xoáy)\n4. Định luật Ampere-Maxwell (Từ trường sinh ra bởi dòng điện và điện trường biến thiên).\n\n**Ứng dụng:** Nền tảng của viễn thông, sóng radio, WiFi, radar, điện thoại di động.",
+      "source": "Vật lý Đại cương A2 - Chương Điện từ trường"
+    },
+    {
+      "keywords": ["lượng tử", "cơ học lượng tử", "schrodinger", "đại học", "vi mô"],
+      "answer": "⚛️ **Vật lý Đại học: Cơ học Lượng tử**\n\nNghiên cứu các vật thể ở kích thước nguyên tử và hạ nguyên tử.\n\n**Các khái niệm then chốt:**\n- **Tính lưỡng tính sóng-hạt:** Hạt vi mô (như electron, photon) vừa có tính chất hạt, vừa có tính chất sóng.\n- **Nguyên lý bất định Heisenberg:** Không thể xác định đồng thời và chính xác tuyệt đối cả vị trí (x) và động lượng (p) của một hạt (Δx·Δp ≥ ℏ/2).\n- **Phương trình Schrödinger:** Mô tả sự tiến hóa theo thời gian của hàm sóng ψ (xác suất tìm thấy hạt).\n\n**Ứng dụng:** Chế tạo chip bán dẫn, máy tính lượng tử, quang phổ học, y học hạt nhân (PET scan).",
+      "source": "Vật lý Đại cương A3 - Chương Lượng tử"
+    }
+  ]
+}

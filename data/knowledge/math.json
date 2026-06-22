@@ -1,0 +1,60 @@
+{
+  "courseName": "Toán học (Cấp 1 - Đại học)",
+  "topics": [
+    {
+      "keywords": ["cộng", "trừ", "nhân", "chia", "số học", "tính toán", "cấp 1"],
+      "answer": "🧮 **Toán Cấp 1: Số học cơ bản**\n\n**Các phép toán:**\n- **Phép cộng (+):** Gộp hai hay nhiều số lượng lại với nhau (VD: 2 + 3 = 5).\n- **Phép trừ (-):** Lấy bớt đi một số lượng từ tổng ban đầu (VD: 5 - 2 = 3).\n- **Phép nhân (×):** Cộng nhiều lần cùng một số (VD: 3 × 4 = 12 tức là 3+3+3+3).\n- **Phép chia (÷):** Chia đều một số lượng thành nhiều phần bằng nhau (VD: 12 ÷ 4 = 3).\n\n**Mẹo ghi nhớ:** Hãy học thuộc bảng cửu chương để tính toán nhân chia nhanh hơn nhé!",
+      "source": "Sách giáo khoa Toán Tiểu học"
+    },
+    {
+      "keywords": ["diện tích", "chu vi", "hình chữ nhật", "hình vuông", "hình học cấp 1"],
+      "answer": "📐 **Toán Cấp 1: Hình học cơ bản**\n\n**Hình Chữ Nhật:**\n- **Chu vi (P):** Bằng (Chiều dài + Chiều rộng) × 2.\n- **Diện tích (S):** Bằng Chiều dài × Chiều rộng.\n\n**Hình Vuông:**\n- **Chu vi (P):** Bằng Cạnh × 4.\n- **Diện tích (S):** Bằng Cạnh × Cạnh.\n\n**Ứng dụng thực tế:** Tính số mét rào cần thiết để bao quanh khu vườn (chu vi), hoặc tính số gạch cần để lát sàn nhà (diện tích).",
+      "source": "Sách giáo khoa Toán Tiểu học"
+    },
+    {
+      "keywords": ["phân số", "tử số", "mẫu số", "quy đồng", "rút gọn"],
+      "answer": "🍕 **Toán Cấp 1-2: Phân số**\n\nPhân số biểu diễn một phần của tổng thể, gồm **Tử số** (nằm trên) và **Mẫu số** (nằm dưới).\n\n**Các quy tắc:**\n- **Rút gọn:** Chia cả tử và mẫu cho cùng một số để phân số nhỏ nhất có thể (VD: 4/8 = 1/2).\n- **Cộng/Trừ:** Phải quy đồng mẫu số (làm cho mẫu số giống nhau) trước khi tính (VD: 1/2 + 1/3 = 3/6 + 2/6 = 5/6).\n- **Nhân:** Tử nhân tử, mẫu nhân mẫu.\n- **Chia:** Nhân phân số thứ nhất với phân số thứ hai đảo ngược.",
+      "source": "Sách giáo khoa Toán Lớp 4-5"
+    },
+    {
+      "keywords": ["phương trình", "bậc 1", "đại số", "cấp 2", "tìm x"],
+      "answer": "➗ **Toán Cấp 2: Phương trình bậc 1**\n\nPhương trình bậc 1 có dạng: **ax + b = 0** (với a ≠ 0).\n\n**Cách giải:**\n1. Chuyển b sang vế phải và đổi dấu: ax = -b\n2. Chia cả hai vế cho a: x = -b/a\n\n**Ví dụ:** Giải phương trình 2x - 4 = 0\n- 2x = 4\n- x = 4 / 2\n- x = 2\n\n**Mẹo:** Quy tắc vàng là \"Chuyển vế đổi dấu\".",
+      "source": "Sách giáo khoa Toán Lớp 8"
+    },
+    {
+      "keywords": ["tam giác", "đồng dạng", "pytago", "hình học phẳng", "cấp 2"],
+      "answer": "📐 **Toán Cấp 2: Hình học phẳng**\n\n**Định lý Pytago (Dành cho tam giác vuông):**\nBình phương cạnh huyền bằng tổng bình phương hai cạnh góc vuông: **a² = b² + c²**\n\n**Tam giác đồng dạng:** Hai tam giác có các góc tương ứng bằng nhau và các cạnh tương ứng tỉ lệ. (Các trường hợp: Góc-Góc, Cạnh-Góc-Cạnh, Cạnh-Cạnh-Cạnh).\n\n**Ứng dụng:** Đo chiều cao của cái cây hoặc tòa nhà bằng cách dùng bóng của chúng và nguyên lý tam giác đồng dạng.",
+      "source": "Sách giáo khoa Toán Lớp 8-9"
+    },
+    {
+      "keywords": ["phương trình bậc 2", "delta", "vi ét", "cấp 3", "đại số"],
+      "answer": "📈 **Toán Cấp 3: Phương trình bậc 2 & Hệ thức Vi-ét**\n\nPhương trình có dạng: **ax² + bx + c = 0** (a ≠ 0)\n\n**Công thức nghiệm (Delta):** Δ = b² - 4ac\n- Nếu Δ > 0: Pt có 2 nghiệm phân biệt: x = (-b ± √Δ) / 2a\n- Nếu Δ = 0: Pt có nghiệm kép: x = -b / 2a\n- Nếu Δ < 0: Pt vô nghiệm trên tập số thực.\n\n**Hệ thức Vi-ét:**\n- Tổng 2 nghiệm: S = x₁ + x₂ = -b/a\n- Tích 2 nghiệm: P = x₁ * x₂ = c/a",
+      "source": "Sách giáo khoa Đại số 10"
+    },
+    {
+      "keywords": ["lượng giác", "sin", "cos", "tan", "cot", "cấp 3"],
+      "answer": "📐 **Toán Cấp 3: Lượng giác**\n\n**Tỉ số lượng giác cơ bản trong tam giác vuông:**\n- **Sin:** Đối / Huyền (Sin đi học)\n- **Cos:** Kề / Huyền (Cứ khóc hoài)\n- **Tan:** Đối / Kề (Thôi đừng khóc)\n- **Cot:** Kề / Đối (Có kẹo đây)\n\n**Công thức cơ bản:**\n- sin²x + cos²x = 1\n- tan(x) = sin(x)/cos(x)\n\n**Ứng dụng:** Xác định khoảng cách, thiết kế cầu đường, và tính toán trong vật lý (dao động điều hòa).",
+      "source": "Sách giáo khoa Toán Lớp 10-11"
+    },
+    {
+      "keywords": ["đạo hàm", "derivative", "vi phân", "đại học", "cấp 3", "taylor", "chuỗi"],
+      "answer": "📈 **Toán Cấp 3/Đại học: Đạo hàm & Chuỗi Taylor**\n\nĐạo hàm của hàm số f(x) thể hiện tốc độ thay đổi của hàm số tại một điểm. Chuỗi Taylor giúp xấp xỉ một hàm số bằng đa thức.\n\n**Các công thức đạo hàm cơ bản:**\n- (xⁿ)' = n·xⁿ⁻¹\n- (eˣ)' = eˣ\n- (ln x)' = 1/x\n- (sin x)' = cos x\n- (cos x)' = -sin x\n\n**Chuỗi Taylor cơ bản:** eˣ = 1 + x + x²/2! + ...\n\n**Ứng dụng thực tế:** Tìm giá trị lớn nhất, nhỏ nhất của hàm số. Trong vật lý, đạo hàm của quãng đường là vận tốc.",
+      "source": "Giải tích 11 & Giải tích Đại học Chương 1"
+    },
+    {
+      "keywords": ["tích phân", "integral", "nguyên hàm", "đại học", "cấp 3"],
+      "answer": "📉 **Toán Cấp 3/Đại học: Tích phân (Integral)**\n\nTích phân là phép toán ngược của đạo hàm. Có hai loại: tích phân bất định (tìm nguyên hàm) và tích phân xác định (tính diện tích).\n\n**Các công thức cơ bản:**\n- ∫xⁿ dx = xⁿ⁺¹/(n+1) + C (n ≠ -1)\n- ∫eˣ dx = eˣ + C\n- ∫(1/x) dx = ln|x| + C\n- ∫sin x dx = -cos x + C\n\n**Ứng dụng:** Tính diện tích hình phẳng giới hạn bởi đồ thị, tính thể tích vật thể tròn xoay, tính quãng đường khi biết vận tốc.",
+      "source": "Giải tích 12 & Giải tích Đại học Chương 3"
+    },
+    {
+      "keywords": ["ma trận", "matrix", "hệ phương trình", "đại số tuyến tính", "đại học"],
+      "answer": "🧮 **Toán Đại học: Ma trận & Đại số tuyến tính**\n\nMa trận A(m×n) là bảng chữ nhật gồm m hàng và n cột các số.\n\n**Phép toán ma trận:**\n- Cộng: A + B (cùng kích thước)\n- Nhân ma trận: Dòng của ma trận 1 nhân với cột của ma trận 2.\n- Định thức: det(A)\n- Ma trận nghịch đảo: A⁻¹\n\n**Giải hệ phương trình AX = B:**\n- Phương pháp khử Gauss\n- Quy tắc Cramer\n- Dùng ma trận nghịch đảo: X = A⁻¹B\n\n**Ứng dụng:** Đồ họa máy tính (biến đổi 3D), Machine Learning, phân tích dữ liệu mạng.",
+      "source": "Đại số tuyến tính - Chương Ma trận"
+    },
+    {
+      "keywords": ["phương trình vi phân", "differential equation", "ode", "đại học"],
+      "answer": "📉 **Toán Đại học: Phương trình vi phân (ODE)**\n\nPhương trình vi phân là phương trình chứa hàm chưa biết và các đạo hàm của nó. Ví dụ: y' = f(x, y)\n\n**Các dạng thường gặp:**\n- Tách biến: y' = g(x)·h(y) -> ∫(1/h(y))dy = ∫g(x)dx\n- Phương trình tuyến tính cấp 1.\n- Phương trình tuyến tính cấp 2 hệ số hằng: ay'' + by' + cy = f(x)\n\n**Ứng dụng:** Rất phổ biến trong việc lập mô hình các hiện tượng vật lý, sinh học (mô hình tăng trưởng dân số, sự phân rã phóng xạ, dao động điện từ).",
+      "source": "Toán cao cấp - Phương trình vi phân"
+    }
+  ]
+}

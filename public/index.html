@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Học viện Hàng không - Đăng nhập</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Page-specific login enhancements */
+    .login-page::before {
+      content: '';
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(59,130,246,0.08) 0%, transparent 70%);
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      animation: breathe 6s ease-in-out infinite;
+    }
+
+    @keyframes breathe {
+      0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+      50% { transform: translate(-50%, -50%) scale(1.3); opacity: 1; }
+    }
+
+    .login-card {
+      position: relative;
+      z-index: 1;
+    }
+
+    .quick-login-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      padding: 10px 16px;
+      background: var(--bg-glass);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--radius-md);
+      color: var(--text-secondary);
+      font-size: 0.825rem;
+      cursor: pointer;
+      transition: all var(--transition-normal);
+      text-align: left;
+    }
+
+    .quick-login-btn:hover {
+      background: var(--bg-glass-hover);
+      border-color: var(--border-glass-hover);
+      color: var(--text-primary);
+      transform: translateX(4px);
+    }
+
+    .quick-login-btn .ql-role {
+      margin-left: auto;
+    }
+
+    .login-features {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 20px;
+    }
+
+    .login-feature {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .login-feature .feature-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--success);
+      animation: pulse-dot 2s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="animated-bg"></div>
+  <div class="particles-overlay"></div>
+
+  <!-- Login Page -->
+  <div class="login-page" id="loginPage">
+    <div class="login-card glass-card">
+
+      <!-- Logo / Title -->
+      <div class="login-logo">
+        <span class="logo-icon">✈️</span>
+        <h1>Học viện Hàng không Việt Nam</h1>
+        <p class="subtitle">Hệ thống Tư vấn Kiến thức AI</p>
+      </div>
+
+      <!-- Error Message -->
+      <div class="login-error" id="loginError">
+        <span id="loginErrorText">Tên đăng nhập hoặc mật khẩu không đúng</span>
+      </div>
+
+      <!-- Login Form -->
+      <form id="loginForm" autocomplete="off">
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-icon">👤</span>
+            <input
+              type="text"
+              class="form-input"
+              id="username"
+              name="username"
+              placeholder="Tên đăng nhập"
+              required
+              autocomplete="username"
+            >
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-icon">🔑</span>
+            <input
+              type="password"
+              class="form-input"
+              id="password"
+              name="password"
+              placeholder="Mật khẩu"
+              required
+              autocomplete="current-password"
+            >
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="loginBtn">
+          <span id="loginBtnText">Đăng nhập</span>
+          <div class="spinner spinner-sm d-none" id="loginSpinner"></div>
+        </button>
+      </form>
+
+      <!-- Divider -->
+      <div class="login-divider">Đăng nhập nhanh (Demo)</div>
+
+      <!-- Quick Login Buttons -->
+      <div class="quick-login">
+        <button class="quick-login-btn" data-username="admin" data-password="admin123" id="quickAdmin">
+          <span>👑</span>
+          <span>Admin</span>
+          <span class="ql-role badge badge-admin">Quản trị viên</span>
+        </button>
+        <button class="quick-login-btn" data-username="teacher1" data-password="teacher123" id="quickTeacher">
+          <span>👨‍🏫</span>
+          <span>Teacher 1</span>
+          <span class="ql-role badge badge-teacher">Giảng viên</span>
+        </button>
+        <button class="quick-login-btn" data-username="student1" data-password="student123" id="quickStudent">
+          <span>🎓</span>
+          <span>Student 1</span>
+          <span class="ql-role badge badge-student">Sinh viên</span>
+        </button>
+      </div>
+
+      <!-- Security Badge -->
+      <div class="text-center mt-lg">
+        <span class="security-badge">
+          🔒 Bảo mật bởi SEC 2 &amp; SEC 6
+        </span>
+      </div>
+
+      <!-- Login Features -->
+      <div class="login-features">
+        <div class="login-feature">
+          <span class="feature-dot"></span>
+          <span>Mã hóa JWT</span>
+        </div>
+        <div class="login-feature">
+          <span class="feature-dot"></span>
+          <span>RBAC</span>
+        </div>
+        <div class="login-feature">
+          <span class="feature-dot"></span>
+          <span>Audit Log</span>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="login-footer">
+        © 2024 Aviation Academy - Nhóm An toàn Thông tin
+      </div>
+    </div>
+  </div>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
