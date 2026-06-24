@@ -12,7 +12,7 @@
  * - Morgan (request logging)
  * - JWT authentication
  * - RBAC (Role-Based Access Control)
- * - File upload validation (SEC 2)
+ * - File upload validation
  * - Prompt injection detection (SEC 6)
  * - Audit trail
  */
@@ -178,7 +178,6 @@ app.get('/api', (req, res) => {
       }
     },
     security: {
-      SEC2: 'File Upload Validation - Kiểm tra MIME type, extension, size, hash',
       SEC6: 'Prompt Injection Guard - 30+ patterns, threat scoring, Vietnamese support'
     }
   });
@@ -379,7 +378,6 @@ async function startServer() {
     console.log('║  • student2 / student123  (SV - chỉ Toán)       ║');
     console.log('╠══════════════════════════════════════════════════╣');
     console.log('║  🛡️  Security Features:                          ║');
-    console.log('║  • SEC2: File Upload Validation                  ║');
     console.log('║  • SEC6: Prompt Injection Guard (30+ patterns)   ║');
     console.log('║  • JWT Auth + RBAC                               ║');
     console.log('║  • Rate Limiting (100 req/15min)                 ║');

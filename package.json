@@ -1,7 +1,7 @@
 {
   "name": "aviation-security-demo",
   "version": "1.0.0",
-  "description": "Aviation Academy AI Knowledge Support - Security Demo (SEC2 & SEC6)",
+  "description": "Aviation Academy AI Knowledge Support - Security Demo (SEC 6)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
